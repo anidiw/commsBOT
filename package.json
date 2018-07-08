@@ -1,0 +1,19 @@
+{
+  "name": "CommsBOT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node commsBOT\\bin\\run.js"
+  },
+  "author": "Aniruddha",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.6.0",
+    "express": "^4.14.0",
+    "superagent": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-zip": "^3.0.2"
+  }
+}
